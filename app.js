@@ -67,6 +67,17 @@ http.createServer(function(request, response){
     response.writeHead(200,'text/html');
     response.write(html);
     response.end();
+    
+  } else if (base == '/1kmas') {
+    
+    var view = new defaultView(c.kmas);
+    view.title = '1Kmas: A js1k xmas entry by Dave Stevens';
+    view.meta = '<meta name="robots" content="noindex,nofollow,noarchive"/><meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">';
+    var html = m.to_html(t.page,view);
+
+    response.writeHead(200,'text/html');
+    response.write(html);
+    response.end();
 
   } else if (base.split('/')[1] == 'articles') {
 

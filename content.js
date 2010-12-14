@@ -51,3 +51,17 @@ this.aea = [
   '</div>',
   '<div id="twitter"><a href="http://twitter.com/shakefon">YOU SHOULD FOLLOW ME ON TWITTER.</a></div>'
 ].join('');
+
+this.kmas = [
+  '<div id="content">',
+  '<h1>1Kmas</h1>',
+  '<p class="first hasPhoto">',
+    'js1k are holding a competition for 1K of JavaScript with a Christmas theme. My entry will live here, once complete.',
+  '</p>',
+  '<p>',
+    'You can follow progress over at <a href="http://github.com/shakefon/1Kmas">github</a> while development is ongoing.',
+  '</p>',
+  '<div id="photo"><img src="/imgs/dave.jpg"/><span>I look like this</span></div>',  
+  '</div>',
+  '<div id="twitter"><a href="http://twitter.com/shakefon">YOU SHOULD FOLLOW ME ON TWITTER.</a></div>'
+].join('');
