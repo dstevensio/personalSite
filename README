@@ -1,0 +1,11 @@
+To give a brief overview of what this is:
+- My personal site, using node.js
+- An early foray in to the world of node and as such, a learning tool.
+- A playground, susceptible to radical changes on a whim.
+
+The ever-evolving TODO list:
+- Currently using very basic usage of Mustache.js templating. Going to switch to Mu, which is faster & made for Node.
+- All data is just dumped in a collection of JS files and pulled in via a require, this was always intended to be a stopgap solution. Switch to CouchDB for storage.
+- Very basic styling, lots more to do there.
+- Ajax-ifying things so that I'm making use of faux-page refreshing and what not.
+- A metric s-ton of additional sections so that there's actually a point to having this site.
